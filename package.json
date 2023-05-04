@@ -1,0 +1,25 @@
+{
+  "name": "pub-sub-redis",
+  "version": "1.0.0",
+  "description": "a minimalistic implementation of pub-sub using redis database",
+  "main": "",
+  "scripts": {
+    "test": "",
+    "publisher": "nodemon publisher.js",
+    "subscriber": "nodemon subscriber.js"
+  },
+  "keywords": [
+    "publisher",
+    "subscriber",
+    "redis"
+  ],
+  "author": "kartikmehta8",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "redis": "^3.1.2"
+  }
+}
